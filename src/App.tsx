@@ -176,22 +176,13 @@ function App() {
       />
 
       {/* Instructions */}
-      <div className="absolute bottom-4 left-4 right-4 text-center">
-        <p className="text-xs text-[hsl(var(--muted-foreground))]">
+      <div className="absolute bottom-6 left-6 right-6 text-center">
+        <p className="text-sm text-[hsl(var(--muted-foreground))] bg-[hsl(var(--background))]/80 backdrop-blur-sm px-6 py-3 rounded-lg inline-block">
           Drag to rotate • Scroll to zoom • Click "Plan" to find path, then "Fly" to animate
         </p>
-        <footer className="mt-8 py-4 text-center text-xs text-[hsl(var(--muted-foreground))] border-t border-[hsl(var(--border))]">
-          Made by{' '}
-          <a 
-            href="https://github.com/sharziki" 
-            target="_blank" 
-            rel="noopener noreferrer"
-            className="text-[hsl(var(--primary))] hover:underline"
-          >
-            Sharvil Saxena
-          </a>
+        <footer className="mt-6 py-3 text-center text-sm text-[hsl(var(--muted-foreground))]">
+          Made by Sharvil Saxena
         </footer>
-
       </div>
     </div>
   );
