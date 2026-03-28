@@ -180,6 +180,18 @@ function App() {
         <p className="text-xs text-[hsl(var(--muted-foreground))]">
           Drag to rotate • Scroll to zoom • Click "Plan" to find path, then "Fly" to animate
         </p>
+        <footer className="mt-8 py-4 text-center text-xs text-[hsl(var(--muted-foreground))] border-t border-[hsl(var(--border))]">
+          Made by{' '}
+          <a 
+            href="https://github.com/sharziki" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="text-[hsl(var(--primary))] hover:underline"
+          >
+            Sharvil Saxena
+          </a>
+        </footer>
+
       </div>
     </div>
   );
